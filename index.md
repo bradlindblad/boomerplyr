@@ -1,1 +1,38 @@
-Translate the famous dplyr package into boomer-speak.
+# boomerplyr 🏖️
+
+> Grab your data by the horns and wrangle it
+
+## What is this?
+
+`boomerplyr` is an alternative syntax for `dplyr` that replaces boring
+old function names with Boomer slang.
+
+## Installation
+
+``` r
+# install.packages("pak")
+pak::pak("bradlindblad/boomerplyr")
+```
+
+## Translation guide
+
+| **dplyr verb**                                    | **boomerplyr verb**                                                                                     | **Meaning**                                                                   |
+|---------------------------------------------------|---------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| [`filter()`](https://rdrr.io/r/stats/filter.html) | [`chuck_it()`](https://bradlindblad.github.io/boomerplyr/reference/chuck_it.md)                         | Don’t need all those rows? Just chuck it in the fuggit bucket.                |
+| `select()`                                        | [`pick_your_poison()`](https://bradlindblad.github.io/boomerplyr/reference/pick_your_poison.md)         | You don’t need those columns, we have columns at home.                        |
+| `mutate()`                                        | [`fiddle()`](https://bradlindblad.github.io/boomerplyr/reference/fiddle.md)                             | Fiddle with the data until she’s where ya want her.                           |
+| `summarise()`                                     | [`the_skinny()`](https://bradlindblad.github.io/boomerplyr/reference/the_skinny.md)                     | Get the straight skinny, summary stats.                                       |
+| `arrange()`                                       | [`get_act_together()`](https://bradlindblad.github.io/boomerplyr/reference/get_act_together.md)         | Get your act together, I’ve been up since 5 AM.                               |
+| `group_by()`                                      | [`divide_and_conquer()`](https://bradlindblad.github.io/boomerplyr/reference/divide_and_conquer.md)     | Let’s you-me divide and conquer this data, bucko.                             |
+| `ungroup()`                                       | [`yoko()`](https://bradlindblad.github.io/boomerplyr/reference/yoko.md)                                 | Break up the band.                                                            |
+| `rename()`                                        | [`rebrand()`](https://bradlindblad.github.io/boomerplyr/reference/rebrand.md)                           | Column name too harsh? We can just rebrand.                                   |
+| `distinct()`                                      | [`paid_my_dues()`](https://bradlindblad.github.io/boomerplyr/reference/paid_my_dues.md)                 | I’ve paid my dues, pal, I deserve this distinction.                           |
+| `pull()`                                          | [`bootstraps()`](https://bradlindblad.github.io/boomerplyr/reference/bootstraps.md)                     | Extract a column (I deserve this, I pulled myself up by my bootstraps).       |
+| `slice_head()`                                    | [`peacekeeping_mission()`](https://bradlindblad.github.io/boomerplyr/reference/peacekeeping_mission.md) | We’re not slicing any heads, this is a peacekeeping mission.                  |
+| `count()`                                         | `cash_pension()`                                                                                        | Count your pension bucks.                                                     |
+| `left_join()`                                     | [`acquire()`](https://bradlindblad.github.io/boomerplyr/reference/acquire.md)                           | Everyone needs a vacation home (merge and keep existing home).                |
+| `right_join()`                                    | [`rubber_stamp()`](https://bradlindblad.github.io/boomerplyr/reference/rubber_stamp.md)                 | Merge, but only keep rows that are rubber stamped by the right table.         |
+| `inner_join()`                                    | [`ceasefire()`](https://bradlindblad.github.io/boomerplyr/reference/ceasefire.md)                       | We have to go along to get along, so call a ceasefire (keep rows that match). |
+| `full_join()`                                     | [`kumbaya()`](https://bradlindblad.github.io/boomerplyr/reference/kumbaya.md)                           | Bring everyone together for a kumbaya session.                                |
+| `anti_join()`                                     | [`out_of_the_will()`](https://bradlindblad.github.io/boomerplyr/reference/out_of_the_will.md)           | Those kids that don’t visit? Out of the will (remove non-matching rows).      |
+| `semi_join()`                                     | [`trim_the_fat()`](https://bradlindblad.github.io/boomerplyr/reference/trim_the_fat.md)                 | Times are tough, trim the fat and remove rows that don’t match.               |
