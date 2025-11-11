@@ -1,0 +1,43 @@
+Translate the famous dplyr package into boomer-speak.
+
+# Package index
+
+## All functions
+
+- [`acquire()`](https://bradlindblad.github.io/boomerplyr/reference/acquire.md)
+  : Everyone needs a vacation home
+- [`bootstraps()`](https://bradlindblad.github.io/boomerplyr/reference/bootstraps.md)
+  : Yank a column
+- [`ceasefire()`](https://bradlindblad.github.io/boomerplyr/reference/ceasefire.md)
+  : Call a ceasefire
+- [`chuck_it()`](https://bradlindblad.github.io/boomerplyr/reference/chuck_it.md)
+  : Chuck garbage rows
+- [`divide_and_conquer()`](https://bradlindblad.github.io/boomerplyr/reference/divide_and_conquer.md)
+  : Take the bull by the horns
+- [`fiddle()`](https://bradlindblad.github.io/boomerplyr/reference/fiddle.md)
+  : Fiddle with it
+- [`get_act_together()`](https://bradlindblad.github.io/boomerplyr/reference/get_act_together.md)
+  : Get your act together
+- [`kumbaya()`](https://bradlindblad.github.io/boomerplyr/reference/kumbaya.md)
+  : Bring everyone together for a kumbaya session
+- [`out_of_the_will()`](https://bradlindblad.github.io/boomerplyr/reference/out_of_the_will.md)
+  : Those kids that don't visit?
+- [`paid_my_dues()`](https://bradlindblad.github.io/boomerplyr/reference/paid_my_dues.md)
+  : I paid my dues, pal
+- [`peacekeeping_mission()`](https://bradlindblad.github.io/boomerplyr/reference/peacekeeping_mission.md)
+  : This is a peacekeeping mission
+- [`pension()`](https://bradlindblad.github.io/boomerplyr/reference/pension.md)
+  : You guys have pensions?
+- [`pick_your_poison()`](https://bradlindblad.github.io/boomerplyr/reference/pick_your_poison.md)
+  : Pick your columns and get it over with
+- [`rebrand()`](https://bradlindblad.github.io/boomerplyr/reference/rebrand.md)
+  : Column name too harsh?
+- [`rubber_stamp()`](https://bradlindblad.github.io/boomerplyr/reference/rubber_stamp.md)
+  : The right table rubber stamps
+- [`the_skinny()`](https://bradlindblad.github.io/boomerplyr/reference/the_skinny.md)
+  : Get the straight skinny
+- [`trim_the_fat()`](https://bradlindblad.github.io/boomerplyr/reference/trim_the_fat.md)
+  : Times are tough
+- [`yoko()`](https://bradlindblad.github.io/boomerplyr/reference/yoko.md)
+  : Break up the band
+
