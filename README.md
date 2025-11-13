@@ -8,7 +8,7 @@
 
 ## What is this?
 
-`boomerplyr` is an alternative syntax for `dplyr` that replaces boring old function names with Boomer slang. 
+`boomerplyr` is an alternative syntax for `dplyr` that replaces boring old function names with Boomer slang. Inspired by [genzplyr](https://hadley.github.io/genzplyr/)
 
 
 ## Installation
@@ -34,7 +34,7 @@ pak::pak("bradlindblad/boomerplyr")
 | `distinct()`   | `paid_my_dues()`         | I've paid my dues, pal, I deserve this distinction. |
 | `pull()`       | `bootstraps()`           | Extract a column (I deserve this, I pulled myself up by my bootstraps). |
 | `slice_head()` | `peacekeeping_mission()` | We're not slicing any heads, this is a peacekeeping mission. |
-| `count()`      | `cash_pension()`         | Count your pension bucks. |
+| `count()`      | `pension()`              | Count your pension bucks. |
 | `left_join()`  | `acquire()`              | Everyone needs a vacation home (merge and keep existing home). |
 | `right_join()` | `rubber_stamp()`         | Merge, but only keep rows that are rubber stamped by the right table. |
 | `inner_join()` | `ceasefire()`            | We have to go along to get along, so call a ceasefire (keep rows that match). |
