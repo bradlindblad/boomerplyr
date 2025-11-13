@@ -5,7 +5,8 @@
 ## What is this?
 
 `boomerplyr` is an alternative syntax for `dplyr` that replaces boring
-old function names with Boomer slang.
+old function names with Boomer slang. Inspired by
+[genzplyr](https://hadley.github.io/genzplyr/)
 
 ## Installation
 
@@ -29,7 +30,7 @@ pak::pak("bradlindblad/boomerplyr")
 | `distinct()`                                      | [`paid_my_dues()`](https://bradlindblad.github.io/boomerplyr/reference/paid_my_dues.md)                 | I’ve paid my dues, pal, I deserve this distinction.                           |
 | `pull()`                                          | [`bootstraps()`](https://bradlindblad.github.io/boomerplyr/reference/bootstraps.md)                     | Extract a column (I deserve this, I pulled myself up by my bootstraps).       |
 | `slice_head()`                                    | [`peacekeeping_mission()`](https://bradlindblad.github.io/boomerplyr/reference/peacekeeping_mission.md) | We’re not slicing any heads, this is a peacekeeping mission.                  |
-| `count()`                                         | `cash_pension()`                                                                                        | Count your pension bucks.                                                     |
+| `count()`                                         | [`pension()`](https://bradlindblad.github.io/boomerplyr/reference/pension.md)                           | Count your pension bucks.                                                     |
 | `left_join()`                                     | [`acquire()`](https://bradlindblad.github.io/boomerplyr/reference/acquire.md)                           | Everyone needs a vacation home (merge and keep existing home).                |
 | `right_join()`                                    | [`rubber_stamp()`](https://bradlindblad.github.io/boomerplyr/reference/rubber_stamp.md)                 | Merge, but only keep rows that are rubber stamped by the right table.         |
 | `inner_join()`                                    | [`ceasefire()`](https://bradlindblad.github.io/boomerplyr/reference/ceasefire.md)                       | We have to go along to get along, so call a ceasefire (keep rows that match). |
