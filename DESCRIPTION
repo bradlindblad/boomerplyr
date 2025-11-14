@@ -11,3 +11,4 @@ RoxygenNote: 7.3.2
 Imports: 
     dplyr
 URL: https://bradlindblad.github.io/boomerplyr/
+BugReports: https://github.com/bradlindblad/boomerplyr/issues

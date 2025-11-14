@@ -43,3 +43,7 @@ pak::pak("bradlindblad/boomerplyr")
 | `semi_join()`  | `trim_the_fat()`         | Times are tough, trim the fat and remove rows that don't match. |
 
 
+## Usage
+You want me to hold your hand? No one was holding my hand when I was walking to school uphill both ways!
+
+Just figure it out like I did
