@@ -248,6 +248,42 @@ trim_the_fat <- function(x, y, ...) {
   semi_join(x, y, ...)
 }
 
+#' Journey back to a simpler time
+#'
+#' Go back to when you remember the time's being better and you being thinner (lag equivalent)
+#'
+#' @param x A vector (memory).
+#' @param n Positive integer of length 1 (How long ago was this).
+#' @param default The value used to pad `x` back to its original size.
+#' @param order_by An optional secondary vector that defines the ordering to use.
+#' @return A vector with the same type and size as `x`.
+#' @examples
+#' back_in_my_day(1:5)
+#' @export
+back_in_my_day <- function(x, n = 1L, ...) {
+  lag(x, n = n, ...)
+}
+
+#' Impart your wisdom on the current youths
+#'
+#' Youngin's lack the wisdom that comes with silver (or no) hair. Tell em/Teach em
+#' what to do. (Improves upon lead function with `mature` parameter which assists
+#' the user in aging by utilizing the Sys.sleep function)
+#'
+#' @param x A vector (a bit of wisdom).
+#' @param n Positive integer of length 1 (How much wisdom is needed).
+#' @param default The value used to pad `x` back to its original size.
+#' @param order_by An optional secondary vector that defines the ordering to use.
+#' @param mature An amount of time recommended for user to age default is 10 seconds.
+#' @return A vector with the same type and size as `x`.
+#' @examples
+#' when_yur_older(1:5)
+#' @export
+when_yur_older <- function(x, n = 1L, mature = 10,...) {
+  Sys.sleep(mature)
+  lead(x, n = n, ...)
+}
+
 
 .onAttach <- function(libname, pkgname) {
   packageStartupMessage("boomerplyr loaded, sport \U0001F3D6\U0000FE0F\nNow wake up, smell the coffee and get to work!")
