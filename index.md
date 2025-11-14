@@ -37,3 +37,10 @@ pak::pak("bradlindblad/boomerplyr")
 | `full_join()`                                     | [`kumbaya()`](https://bradlindblad.github.io/boomerplyr/reference/kumbaya.md)                           | Bring everyone together for a kumbaya session.                                |
 | `anti_join()`                                     | [`out_of_the_will()`](https://bradlindblad.github.io/boomerplyr/reference/out_of_the_will.md)           | Those kids that don’t visit? Out of the will (remove non-matching rows).      |
 | `semi_join()`                                     | [`trim_the_fat()`](https://bradlindblad.github.io/boomerplyr/reference/trim_the_fat.md)                 | Times are tough, trim the fat and remove rows that don’t match.               |
+
+## Usage
+
+You want me to hold your hand? No one was holding my hand when I was
+walking to school uphill both ways!
+
+Just figure it out like I did
